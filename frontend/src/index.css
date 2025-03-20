@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.background-section {
+  background-image: url('Landing.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
