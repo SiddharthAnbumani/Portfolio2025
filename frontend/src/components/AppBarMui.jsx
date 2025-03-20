@@ -96,7 +96,7 @@ export default function AppBarMui(props) {
                 component={NavLink}
                 to={item.path}
                 style={({ isActive }) => ({
-                  color: isActive ? 'blue' : '#fff',
+                  color: isActive ? 'red' : '#fff',
                 })}
               >
                 {item.name}
