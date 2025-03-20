@@ -2,7 +2,7 @@ import '.././index.css'
 
 export default function Home() {
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="background-section h-screen flex items-center justify-center">
       {/* Centering the container vertically */}
       <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-20">
         {/* Responsive Flex - Column on small screens, Row on large screens */}

@@ -7,3 +7,10 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.background-section-resume {
+  background-image: url('Japan-bg-2.avif');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

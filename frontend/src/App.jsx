@@ -8,7 +8,7 @@ import AppBarMui from "./components/AppBarMui"
 
 export default function App(){
   return (
-    <div className="background-section">
+    <div className="">
       <BrowserRouter>
       <AppBarMui/>
         <Routes>
