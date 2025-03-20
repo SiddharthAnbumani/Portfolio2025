@@ -16,7 +16,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl lg:text-8xl text-white font-extrabold font-[alata]">
               Web Designer + Web Developer
             </h1>
-            <p className="text-sm sm:text-base lg:text-lg text-white font-bold mt-5">
+            <p className="text-sm sm:text-base lg:text-lg text-white font-bold mt-5 backdrop-blur-lg rounded-md">
               Vehement about web development, delving into React, Next.js, Node.js,
               and Express to build robust full-stack applications. Well-versed in MongoDB
               and PostgreSQL for efficient database management. Exploring Three.js for
