@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Project from "./pages/Project"
 import Resume from "./pages/Resume"
 import AppBarMui from "./components/AppBarMui"
+import Contact from "./pages/Contact"
 
 export default function App(){
   return (
@@ -16,6 +17,7 @@ export default function App(){
           <Route path="/project" element={<Project/>}/>
           <Route path="/project" element={<Project/>}/>
           <Route path="/resume" element={<Resume/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
     </div>

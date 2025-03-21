@@ -39,7 +39,13 @@ export default function Home() {
 
       {/* Second Section */}
       <div className="background-section-home-2 h-screen flex items-center justify-center">
-        <div></div>
+        <div className='flex flex-col'>
+          <div className='flex'>
+            <h1>
+              
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   )
