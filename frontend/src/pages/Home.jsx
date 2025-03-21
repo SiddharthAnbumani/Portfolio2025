@@ -3,7 +3,8 @@ import '.././index.css'
 import SkillBox from '../components/SkillBox' 
 import Spline from '@splinetool/react-spline'
 
-
+// <script type="module" src=""></script>
+// <spline-viewer url="undefined"></spline-viewer>
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
     <div>
       {/* Spline Background */}
       <div className="spline-background">
+        {/* <Spline scene="https://prod.spline.design/vglwSU-KXls6RsC0/scene.splinecode" /> */}
         <Spline scene="https://prod.spline.design/vglwSU-KXls6RsC0/scene.splinecode" />
+        {/* <Spline scene="https://prod.spline.design/dOdHQh-vB1onRukl/scene.splinecode" /> */}
       </div>
 
       {/* Overlay for Readability */}
@@ -24,7 +27,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row justify-center w-full h-screen">
         
           {/* Left Section - Text */}
-          <div className="w-full lg:w-2/3 backdrop-blur-3xl flex flex-col justify-center my-10">
+          <div className="w-full lg:w-2/3  flex flex-col justify-center my-10">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl text-white font-extrabold font-[anton]">
               This is Siddharth Anbumani
             </h1>

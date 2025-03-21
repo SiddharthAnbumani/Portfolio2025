@@ -19,7 +19,7 @@ const drawerWidth = 240;
 
 // Your updated navigation items
 const navItems = [
-  { name: 'Home', path: '/' },
+  { name: 'Home', path: '/home' },
   { name: 'Resume', path: '/resume' },
   { name: 'Project', path: '/project' },
   { name: 'Contact', path: '/contact' }
@@ -70,6 +70,17 @@ export default function AppBarMui(props) {
         backdropFilter: 'blur(10px)' // Blur effect
       }}>
         <Toolbar>
+        <Button
+      
+            sx={{ color: '#fff', mr: 2}}
+            component={NavLink}
+            to="/"
+            style={({ isActive }) => ({
+              color: isActive ? 'red' : '#fff',
+            })}
+          >
+            Landing
+          </Button>
           {/* Mobile Menu Icon */}
           <IconButton
             color="inherit"
