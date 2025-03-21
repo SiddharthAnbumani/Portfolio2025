@@ -65,7 +65,10 @@ export default function AppBarMui(props) {
   return (
     <>
       {/* AppBar Section */}
-      <AppBar component="nav" sx={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}>
+      <AppBar component="nav" sx={{
+        backgroundColor: 'rgba(0,0,0)', // Transparent black
+        backdropFilter: 'blur(10px)' // Blur effect
+      }}>
         <Toolbar>
           {/* Mobile Menu Icon */}
           <IconButton

@@ -1,5 +1,37 @@
 @import "tailwindcss";
 
+/* .body {
+  background: rgb(50,4,15);
+  background: linear-gradient(90deg, rgba(50,4,15,1) 0%, rgba(42,21,78,1) 69%);
+} */
+
+.spline-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0); /* Dark overlay for readability */
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 100px;
+}
+
+
 .background-section-home {
   background-image: url('Pattern-bg-2.avif');
   height: 100vh;

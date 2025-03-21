@@ -1,13 +1,30 @@
+
 import '.././index.css'
+import SkillBox from '../components/SkillBox' 
+import Spline from '@splinetool/react-spline'
+
+
 
 export default function Home() {
   return (
-    <div className="background-section-home h-screen flex-col items-center justify-center">
+
+    <div>
+      {/* Spline Background */}
+      <div className="spline-background">
+        <Spline scene="https://prod.spline.design/vglwSU-KXls6RsC0/scene.splinecode" />
+      </div>
+
+      {/* Overlay for Readability */}
+      <div className="overlay"></div>
+
+      {/* Content */}
+      <div className="content">
+      <div className=" background-gradient  flex-col items-center justify-center">
       <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-20">
         <div className="flex flex-col lg:flex-row justify-center w-full h-screen">
         
           {/* Left Section - Text */}
-          <div className="w-full lg:w-2/3 bg-transparent flex flex-col justify-center my-10">
+          <div className="w-full lg:w-2/3 backdrop-blur-3xl flex flex-col justify-center my-10">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl text-white font-extrabold font-[anton]">
               This is Siddharth Anbumani
             </h1>
@@ -38,15 +55,17 @@ export default function Home() {
       </div>
 
       {/* Second Section */}
-      <div className="background-section-home-2 h-screen flex items-center justify-center">
-        <div className='flex flex-col'>
-          <div className='flex'>
-            <h1>
-              
-            </h1>
-          </div>
+      <div className="background-gradient h-screen ">
+        <div className='flex items-start justify-center '>
+        <SkillBox/>
         </div>
       </div>
+
+      <div className=" background-gradient h-screen ">
+</div> 
     </div>
+      </div>
+    </div>
+
   )
 }

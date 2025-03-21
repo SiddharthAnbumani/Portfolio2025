@@ -6,10 +6,11 @@ import Project from "./pages/Project"
 import Resume from "./pages/Resume"
 import AppBarMui from "./components/AppBarMui"
 import Contact from "./pages/Contact"
+import './index.css'
 
 export default function App(){
   return (
-    <div className="">
+    <div className="body">
       <BrowserRouter>
       <AppBarMui/>
         <Routes>
