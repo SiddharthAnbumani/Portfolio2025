@@ -3,11 +3,10 @@ import Spline from "@splinetool/react-spline"
 export default function Contact(){
     return(
 
-        <div>
-        <Spline scene="https://prod.spline.design/dOdHQh-vB1onRukl/scene.splinecode" />
+        <div className="spline-background">
+        <Spline scene="https://prod.spline.design/WLozldU7sW9qGqDV/scene.splinecode" />
       </div>
     )
 }
 
-{/* <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.79/build/spline-viewer.js"></script>
-<spline-viewer url="https://prod.spline.design/dOdHQh-vB1onRukl/scene.splinecode"></spline-viewer> */}
+

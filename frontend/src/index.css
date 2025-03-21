@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
 /* .body {
+  
+} */
+
+.whole{
   background: rgb(50,4,15);
   background: linear-gradient(90deg, rgba(50,4,15,1) 0%, rgba(42,21,78,1) 69%);
-} */
+}
 
 .spline-background {
   position: fixed;
