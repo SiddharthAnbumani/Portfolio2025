@@ -1,16 +1,36 @@
 @import "tailwindcss";
 
-.background-section {
-  background-image: url('Landing.jpg');
+.background-section-home {
+  background-image: url('Pattern-bg-2.avif');
   height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+.background-section-home-2 {
+  background-image: url('Pattern-bg-1.avif');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 .background-section-resume {
   background-image: url('Japan-bg-2.avif');
   height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.background-section-resume-bg-2{
+  background-image: url('Japan-bg.avif');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100%;
 }

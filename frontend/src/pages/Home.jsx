@@ -2,11 +2,9 @@ import '.././index.css'
 
 export default function Home() {
   return (
-    <div className="background-section h-screen flex items-center justify-center">
-      {/* Centering the container vertically */}
+    <div className="background-section-home h-screen flex-col items-center justify-center">
       <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-20">
-        {/* Responsive Flex - Column on small screens, Row on large screens */}
-        <div className="flex flex-col lg:flex-row justify-center w-full">
+        <div className="flex flex-col lg:flex-row justify-center w-full h-screen">
         
           {/* Left Section - Text */}
           <div className="w-full lg:w-2/3 bg-transparent flex flex-col justify-center my-10">
@@ -23,21 +21,26 @@ export default function Home() {
               immersive 3D experiences and GSAP for smooth, interactive animations.
             </p>
 
-            {/* Social Buttons - Left Aligned */}
+            {/* Social Buttons */}
             <div className="flex space-x-3 mt-5 self-start">
-              <button className="backdrop-blur-3xl text-white rounded-md px-10 py-3 hover:bg-white hover:text-black">LinkedIn</button>
+              <a className="backdrop-blur-3xl text-white rounded-md px-10 py-3 hover:bg-white hover:text-black" href='https://www.linkedin.com/in/siddharth-anbumani-778b0124a/'>LinkedIn</a>
               <button className="backdrop-blur-3xl text-white rounded-md px-10 py-3 hover:bg-white hover:text-black">I</button>
               <button className="backdrop-blur-3xl text-white rounded-md px-10 py-3 hover:bg-white hover:text-black">W</button>
             </div>
           </div>
 
-          {/* Right Section - Image */}
-          <div className="w-full lg:w-1/3 bg-transparent my-10 flex items-center justify-center">
-            <img src="Frank.jpg" alt="Siddharth's Profile" className="max-w-full h-auto" />
+          {/* Right Section - Image with Proper Aspect Ratio */}
+          <div className="w-full lg:w-1/3 flex-none flex items-center justify-center">
+            {/* Fix Image Stretching */}
+            <img src="Frank.jpg" alt="Siddharth's Profile" className="w-full h-auto max-h-[80vh] object-contain" />
           </div>
         </div>
+      </div>
+
+      {/* Second Section */}
+      <div className="background-section-home-2 h-screen flex items-center justify-center">
+        <div></div>
       </div>
     </div>
   )
 }
-
