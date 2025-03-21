@@ -8,7 +8,7 @@ export default function SkillBox(){
                 <p className="text-white m-3">
                     I need this to be not more than one line or two line
                    </p>
-                <img src="Frank.jpg" alt="" className="w-20- h-20"/>
+                <img src="html.png" alt="" className="w-20- h-20"/>
             </div>
 
             <div className=" bg-black w-60 mt-5 h-60 flex flex-col justify-center items-center">
@@ -16,7 +16,7 @@ export default function SkillBox(){
                 <p className="text-white m-3">
                     I need this to be not more than one line or two line
                    </p>
-                <img src="Frank.jpg" alt="" className="w-20- h-20"/>
+                <img src="css.webp" alt="" className="w-20- h-20"/>
             </div>
 
             <div className=" bg-black w-60 mt-5 h-60 flex flex-col justify-center items-center">
@@ -24,7 +24,7 @@ export default function SkillBox(){
                 <p className="text-white m-3">
                     I need this to be not more than one line or two line
                    </p>
-                <img src="Frank.jpg" alt="" className="w-20- h-20"/>
+                <img src="js.png" alt="" className="w-20- h-20"/>
             </div>
 
             <div className=" bg-black w-60 mt-5 h-60 flex flex-col justify-center items-center">
@@ -32,7 +32,7 @@ export default function SkillBox(){
                 <p className="text-white m-3">
                     I need this to be not more than one line or two line
                    </p>
-                <img src="Frank.jpg" alt="" className="w-20- h-20"/>
+                <img src="node.svg" alt="" className="w-20- h-20"/>
             </div>
 
             <div className=" bg-black w-60 mt-5 h-60 flex flex-col justify-center items-center">
@@ -40,31 +40,31 @@ export default function SkillBox(){
                 <p className="text-white m-3">
                     I need this to be not more than one line or two line
                    </p>
-                <img src="Frank.jpg" alt="" className="w-20- h-20"/>
+                <img src="express.png" alt="" className="w-20- h-20"/>
             </div>
 
             <div className=" bg-black w-60 mt-5 h-60 flex flex-col justify-center items-center">
-                <h1 className="text-4xl font-extrabold text-white mt-2">Express</h1>
+                <h1 className="text-4xl font-extrabold text-white mt-2">React</h1>
                 <p className="text-white m-3">
                     I need this to be not more than one line or two line
                    </p>
-                <img src="Frank.jpg" alt="" className="w-20- h-20"/>
+                <img src="react3.jpg" alt="" className="w-20- h-20"/>
+            </div>
+
+            <div className=" bg-blue w-60 mt-5 h-60 flex flex-col justify-center items-center">
+                <h1 className="text-4xl font-extrabold text-white mt-2">Next.js</h1>
+                <p className="text-white m-3">
+                    I need this to be not more than one line or two line
+                   </p>
+                <img src="nextjs.png" alt="" className="w-20- h-20"/>
             </div>
 
             <div className=" bg-black w-60 mt-5 h-60 flex flex-col justify-center items-center">
-                <h1 className="text-4xl font-extrabold text-white mt-2">Express</h1>
+                <h1 className="text-4xl font-extrabold text-white mt-2">Mongo DB</h1>
                 <p className="text-white m-3">
                     I need this to be not more than one line or two line
                    </p>
-                <img src="Frank.jpg" alt="" className="w-20- h-20"/>
-            </div>
-
-            <div className=" bg-black w-60 mt-5 h-60 flex flex-col justify-center items-center">
-                <h1 className="text-4xl font-extrabold text-white mt-2">Express</h1>
-                <p className="text-white m-3">
-                    I need this to be not more than one line or two line
-                   </p>
-                <img src="Frank.jpg" alt="" className="w-20- h-20"/>
+                <img src="mongodb.webp" alt="" className="w-20- h-20"/>
             </div>
             
             
