@@ -1,9 +1,11 @@
 import AppBarMui from "../components/AppBarMui";
+import Navbar from "../components/Navbar"
+
 
 export default function Resume() {
     return (
       <div className="">
-      <AppBarMui/>
+      <Navbar/>
         {/* First Section */}
         <div className="whole h-screen flex items-center justify-center">
           <div className="w-[80%] h-full">

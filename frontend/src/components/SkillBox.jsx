@@ -1,13 +1,14 @@
 import React from 'react';
+//  8px_8px_16px_rgba(255,255,255,0.5)
 
 export default function Skills() {
   return (
     <div className="m-15">
       {/* Title */}
-      <h1 className="text-5xl text-white font-extrabold m-5 text-center font-[alata]">My Technical Skills</h1>
+      <h1 className="text-5xl text-white font-extrabold m-5 text-center font-[alata] [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)]">My Technical Skills</h1>
       
       {/* Section 1: Skills Grid */}
-      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 m-10 px-5 py-3">
+      <div className=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 gap-4 m-10 px-5 py-3">
         
         {/* HTML Card */}
         <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">

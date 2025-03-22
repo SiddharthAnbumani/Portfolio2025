@@ -1,5 +1,6 @@
 import '../index.css'
 import Spline from "@splinetool/react-spline"
+import { motion } from 'framer-motion'
 
 export default function Landing(){
     return(
@@ -10,15 +11,33 @@ export default function Landing(){
         <div className="content">
             <div className="flex flex-col justify-center items-center h-screen">
             {/* <h1 className="text-3xl sm:text-4xl lg:text-5xl text-white font-extrabold font-[arizonia] rounded-lg backdrop-blur-xl bg-white/2 p-5 text-center"> */}
-          <h1 className="text-7xl font-extrabold font-[Helvetica] -mt-20 [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] ">
-           SIDDHARTH ANBUMANI
+            <motion.div
+                initial={{ opacity: 0 }} // Start fully transparent
+                animate={{ opacity: 1 }} // Gradually become visible
+                transition={{ duration: 3 }}
+              > 
+            <h1 className="text-7xl font-extrabold font-[Helvetica] -mt-20 [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] ">
+                SIDDHARTH ANBUMANI
             </h1>
-            <p className="font-bold text-2xl italic">
+            </motion.div>
+
+            <motion.div
+                initial={{ opacity: 0 }} // Start fully transparent
+                animate={{ opacity: 1 }} // Gradually become visible
+                transition={{ duration: 4 }}
+              > 
+              <p className="font-bold text-2xl italic [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)]">
             Building the Future, One Line of Code at a Time.
             </p>
-            <a href="/home" className="bg-white/20  m-5 px-10 py-5 rounded-3xl font-semibold text-lg transition-transform duration-300 hover:scale-110">
+              </motion.div>
+
+
+          <a href="/home" className="bg-white/50 mt-5 px-10 py-5 rounded-3xl font-semibold text-lg transition-transform duration-300 hover:scale-110">
             Discover What I Build
-            </a>
+        </a>
+
+            
+
             </div>
             
         </div>
