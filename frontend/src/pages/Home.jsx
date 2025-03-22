@@ -2,6 +2,7 @@
 import '.././index.css'
 import SkillBox from '../components/SkillBox' 
 import Spline from '@splinetool/react-spline'
+import AppBarMui from '../components/AppBarMui'
 
 // <script type="module" src=""></script>
 // <spline-viewer url="undefined"></spline-viewer>
@@ -10,6 +11,8 @@ export default function Home() {
   return (
 
     <div>
+      <AppBarMui/>
+
       {/* Spline Background */}
       <div className="spline-background">
         {/* <Spline scene="https://prod.spline.design/vglwSU-KXls6RsC0/scene.splinecode" /> */}
@@ -22,7 +25,7 @@ export default function Home() {
 
       {/* Content */}
       <div className="content">
-      <div className=" background-gradient  flex-col items-center justify-center">
+      <div className="flex-col items-center justify-center">
       <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-20">
         <div className="flex flex-col lg:flex-row justify-center w-full h-screen">
         
@@ -43,9 +46,16 @@ export default function Home() {
 
             {/* Social Buttons */}
             <div className="flex space-x-3 mt-5 self-start">
-              <a className="backdrop-blur-3xl text-white rounded-md px-10 py-3 hover:bg-white hover:text-black" href='https://www.linkedin.com/in/siddharth-anbumani-778b0124a/'>LinkedIn</a>
-              <button className="backdrop-blur-3xl text-white rounded-md px-10 py-3 hover:bg-white hover:text-black">I</button>
-              <button className="backdrop-blur-3xl text-white rounded-md px-10 py-3 hover:bg-white hover:text-black">W</button>
+              <a className="backdrop-blur-3xl text-white   bg-white/30 rounded-md px-10 py-3 hover:border-2" 
+              href='https://www.linkedin.com/in/siddharth-anbumani-778b0124a/'>
+                <img src="linkedin.png" alt="" srcset="" className='w-20 h-5' />
+              </a>
+              <a className="backdrop-blur-3xl text-white  bg-white/30 rounded-md px-10 py-3 hover:border-2" 
+              href='https://github.com/SiddharthAnbumani'>
+                <img src="github.png" alt="" srcset="" className='w-20 h-7' />
+              </a>
+              <button className="backdrop-blur-3xl bg-white/30 text-white rounded-md px-10 py-3 hover:border-2"><img src="instagram.webp" alt="" srcset="" className='w-5 h-5' /> </button>
+              <button className="backdrop-blur-3xl text-white rounded-md px-10 py-3 hover:border-2">I</button>
             </div>
           </div>
 

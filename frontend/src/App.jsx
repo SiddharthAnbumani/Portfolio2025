@@ -13,7 +13,6 @@ export default function App(){
   return (
     <div className="body">
       <BrowserRouter>
-      <AppBarMui/>
         <Routes>
           <Route path="/" element={<Landing/>}/>
           <Route path="/home" element={<Home/>}/>

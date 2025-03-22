@@ -35,7 +35,13 @@ export default function AppBarMui(props) {
   // Mobile Drawer Component
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" 
+      sx={{ my: 2,
+          fontFamily: 'Roboto, sans-serif', 
+            fontWeight: 'bold',
+            fontSize: '24px',
+            color: '#fff'
+       }}>
       </Typography>
       <Button
         sx={{ color: '#000', width: '100%', mb: 2 }}
