@@ -7,109 +7,112 @@ export default function Skills() {
       <h1 className="text-5xl text-white font-extrabold m-5">My Technical Skills</h1>
       
       {/* Section 1: Skills Grid */}
-      <div className="backdrop-blur-3xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 m-5">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 m-10">
         
         {/* HTML Card */}
-        <div className="border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">HTML 5</h1>
-          <p className="text-white text-center px-2 truncate">HTML for structure and layout.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">HTML 5</h1>
+          {/* <p className="text-white text-center px-2 truncate mx-3">HTML for structure and layout.</p> */}
           <img src="html.png" alt="HTML Logo" className="w-20 h-20"/>
         </div>
 
+
+
         {/* CSS Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">CSS</h1>
-          <p className="text-white text-center px-2 truncate">CSS for design and styling.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">CSS</h1>
+          {/* <p className="text-white text-center px-2 truncate">CSS for design and styling.</p> */}
           <img src="cssf.png" alt="CSS Logo" className="w-20 h-20"/>
         </div>
 
         {/* JavaScript Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">JavaScript</h1>
-          <p className="text-white text-center px-2 truncate">JS for dynamic applications.</p>
-          <img src="js.png" alt="JS Logo" className="w-20 h-20"/>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">JavaScript</h1>
+          {/* <p className="text-white text-center px-2 truncate">JS for dynamic applications.</p> */}
+          <img src="js2.webp" alt="JS Logo" className="w-20 h-20"/>
         </div>
 
         {/* TypeScript Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">TypeScript</h1>
-          <p className="text-white text-center px-2 truncate">Typed JS for safety.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">TypeScript</h1>
+          {/* <p className="text-white text-center px-2 truncate">Typed JS for safety.</p> */}
           <img src="typescript.png" alt="TS Logo" className="w-20 h-20"/>
         </div>
       
         {/* MongoDB Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">Mongo DB</h1>
-          <p className="text-white text-center px-2 truncate">NoSQL database management.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">Mongo DB</h1>
+          {/* <p className="text-white text-center px-2 truncate">NoSQL database management.</p> */}
           <img src="mongodb.webp" alt="MongoDB Logo" className="w-20 h-20"/>
         </div>
 
         {/* Express Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">Express</h1>
-          <p className="text-white text-center px-2 truncate">Backend API management.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">Express</h1>
+          {/* <p className="text-white text-center px-2 truncate">Backend API management.</p> */}
           <img src="express.png" alt="Express Logo" className="w-20 h-20"/>
         </div>
 
         {/* React Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">React</h1>
-          <p className="text-white text-center px-2 truncate">Frontend framework for UI.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">React</h1>
+          {/* <p className="text-white text-center px-2 truncate">Frontend framework for UI.</p> */}
           <img src="reactf.webp" alt="React Logo" className="w-20 h-20"/>
         </div>
 
         {/* Node.js Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">Node.js</h1>
-          <p className="text-white text-center px-2 truncate">Server-side JS runtime.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">Node.js</h1>
+          {/* <p className="text-white text-center px-2 truncate">Server-side JS runtime.</p> */}
           <img src="node.svg" alt="Node Logo" className="w-20 h-20"/>
         </div>
 
         {/* Next.js Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">Next.js</h1>
-          <p className="text-white text-center px-2 truncate">React framework for SSR.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">Next.js</h1>
+          {/* <p className="text-white text-center px-2 truncate">React framework for SSR.</p> */}
           <img src="nextjs.png" alt="Next.js Logo" className="w-20 h-20"/>
         </div>
 
         {/* Bootstrap Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">Bootstrap</h1>
-          <p className="text-white text-center px-2 truncate">CSS library for responsive design.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">Bootstrap</h1>
+          {/* <p className="text-white text-center px-2 truncate">CSS library for responsive design.</p> */}
           <img src="bootstrap.png" alt="Bootstrap Logo" className="w-20 h-20"/>
         </div>
 
         {/* React-Bootstrap Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-2xl font-extrabold text-white mt-2">React-Bootstrap</h1>
-          <p className="text-white text-center px-2 truncate">Bootstrap components for React.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-2xl font-extrabold text-white mt-2 font-[gulzar]">React-Bootstrap</h1>
+          {/* <p className="text-white text-center px-2 truncate">Bootstrap components for React.</p> */}
           <img src="reactbootstrap.png" alt="React Bootstrap Logo" className="w-20 h-20"/>
         </div>
 
         {/* TailwindCSS Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">TailwindCSS</h1>
-          <p className="text-white text-center px-2 truncate">Utility-first CSS framework.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">TailwindCSS</h1>
+          {/* <p className="text-white text-center px-2 truncate">Utility-first CSS framework.</p> */}
           <img src="tailwindcss.png" alt="TailwindCSS Logo" className="w-20 h-20"/>
         </div>
-      </div>
 
-      {/* Section 2: Frameworks */}
-      <div className="backdrop-blur-3xl grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center"> 
         {/* Shadcn Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">Shadcn</h1>
-          <p className="text-white text-center px-2 truncate">UI components for React.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">Shadcn</h1>
+          {/* <p className="text-white text-center px-2 truncate">UI components for React.</p> */}
           <img src="shadcn.png" alt="Shadcn Logo" className="w-20 h-20"/>
         </div>
 
         {/* Material UI Card */}
-        <div className="backdrop-blur-lg border-1 w-60 h-60 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-extrabold text-white mt-2">MaterialUI</h1>
-          <p className="text-white text-center px-2 truncate">Google's UI library.</p>
+        <div className="w-60 h-60 flex flex-col justify-center items-center rounded-[30%] backdrop-blur-xl bg-white/10">
+
+          <h1 className="text-4xl font-extrabold text-white mt-2 font-[gulzar]">MaterialUI</h1>
+          {/* <p className="text-white text-center px-2 truncate">Google's UI library.</p> */}
           <img src="mui.png" alt="MaterialUI Logo" className="w-20 h-20"/>
         </div>
       </div>
+        
+
     </div>
   );
 }

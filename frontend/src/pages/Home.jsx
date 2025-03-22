@@ -28,14 +28,14 @@ export default function Home() {
         
           {/* Left Section - Text */}
           <div className="w-full lg:w-2/3  flex flex-col justify-center my-10">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl text-white font-extrabold font-[anton]">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl text-white font-extrabold font-[anton] rounded-lg backdrop-blur-xl bg-white/10 p-5 text-center">
               This is Siddharth Anbumani
             </h1>
-            <h1 className="text-5xl sm:text-6xl lg:text-8xl text-white font-extrabold font-[alata]">
+            <h1 className="text-5xl sm:text-6xl lg:text-8xl text-white font-extrabold font-[alata] rounded-lg backdrop-blur-xl bg-white/10 my-5 px-3 text-center">
               Web Designer + Web Developer
             </h1>
             <p className="text-sm sm:text-base lg:text-lg text-white font-bold mt-5 backdrop-blur-lg rounded-md">
-              Vehement about web development, delving into React, Next.js, Node.js,
+              I am Vehement about web development, delving into React, Next.js, Node.js,
               and Express to build robust full-stack applications. Well-versed in MongoDB
               and PostgreSQL for efficient database management. Exploring Three.js for
               immersive 3D experiences and GSAP for smooth, interactive animations.
